@@ -49,3 +49,24 @@ a:hover{
 
 .button1 {border-radius: 8px;}
 }
+
+.buttonClass {
+  font-size:15px;
+  font-family:sans-serif;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#3b6e22;
+  font-weight:bold;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  box-shadow:inset 0px 1px 0px 0px #9acc85;
+  background:linear-gradient(#74ad5a, #68a54b);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#68a54b, #74ad5a);
+}
